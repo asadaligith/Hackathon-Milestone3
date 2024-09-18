@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+    padding:0;
+    background-color: #f0f4f8;
+
+}
+
+h1{
+    text-align: center;
+    color:rgb(65, 49, 49);
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset{
+    border:2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 240, 220);
+
+}
+
+legend{
+    font-weight: bold; 
+    text-align: left;
+    color:rgb(87, 86, 86);
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color:rgb(61, 59, 59);
+    font-size: 1rem;
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(70, 64, 64);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding:10px;
+    background-color: black;
+    color: White;
+    border-radius: 4px;
+    padding:8px;
+    cursor: pointer;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    border: none;  
+
+}
+ 
+button:hover{
+    background-color: red;
+    color:black;
+   
+}
+button:active{
+    background-color: rgba(255, 0, 0, 0.514);
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(70, 64, 64);
+    border-radius: 8px;
+    background-color:  rgb(226, 240, 220);
+    box-shadow: 0 4px 8px rgba (0 0 0 0.5);
+
+}
+#resumeOutput h2{
+color:#2c3e50;
+}
